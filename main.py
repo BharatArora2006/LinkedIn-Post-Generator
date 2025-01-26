@@ -120,7 +120,7 @@ def get_unified_tags(posts_with_metadata):
     return res
 
 if __name__ == "__main__":
-  process_posts("/content/raw_posts.json","/content/drive/MyDrive/Linkedin_Post_Generator/Processed_posts.json")
+  process_posts("raw_posts.json","Processed_posts.json")
 
 with open('app.py', 'w') as f:
     f.write("""
