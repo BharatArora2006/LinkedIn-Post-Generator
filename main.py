@@ -29,7 +29,7 @@ def ensure_utf8_encoding(data):
   else:
     return data
 
-with open("/content/raw_posts.json", encoding='utf-8') as f:
+with open("raw_posts.json", encoding='utf-8') as f:
   posts = json.load(f)
 posts = ensure_utf8_encoding(posts)
 
