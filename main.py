@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/16iF8tAXd6vn3BmNn4ZoU2YOpe8cXkRfh
 """
 
-!pip install -r requirements.txt
+pip install -r requirements.txt
 
 import json
 import pandas as pd
