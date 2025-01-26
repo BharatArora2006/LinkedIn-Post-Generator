@@ -153,7 +153,10 @@ if st.button("Generate"):
 """)
 
 # Now run the Streamlit app using nohup (background execution)
-!nohup streamlit run app.py &>/dev/null &
+# !nohup streamlit run app.py &>/dev/null &
+
+# Run the streamlit app in the background
+subprocess.Popen(['nohup', 'streamlit', 'run', 'app.py', '&>', '/dev/null', '&'])
 
 # Install Pyngrok if it's not installed already
 # !pip install pyngrok
