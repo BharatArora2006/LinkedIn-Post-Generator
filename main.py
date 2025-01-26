@@ -40,7 +40,7 @@ for post in posts:
 GROQ_API_KEY = "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"
 
 from langchain_groq import ChatGroq
-llm = ChatGroq(groq_api_key = GROQ_API_KEY, model_name = 'llama-3.3-70b-versatile')
+llm = ChatGroq(groq_api_key = GROQ_API_KEY, model_name = 'llama-3.1-8b-instant')
 
 # Checking LLM activation
 if __name__ == "__main__":
