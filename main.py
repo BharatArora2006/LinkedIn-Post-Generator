@@ -7,7 +7,14 @@ Original file is located at
     https://colab.research.google.com/drive/16iF8tAXd6vn3BmNn4ZoU2YOpe8cXkRfh
 """
 
-pip install -r requirements.txt
+# pip install -r requirements.txt
+import subprocess
+import sys
+
+subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
+
+# Then, the rest of your code follows
+
 
 import json
 import pandas as pd
