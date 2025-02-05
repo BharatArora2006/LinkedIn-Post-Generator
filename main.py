@@ -37,7 +37,7 @@ for post in posts:
   print(post)
 
 # from google.colab import userdata
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "abc..."
 
 from langchain_groq import ChatGroq
 llm = ChatGroq(groq_api_key = GROQ_API_KEY, model_name = 'llama-3.1-8b-instant')
